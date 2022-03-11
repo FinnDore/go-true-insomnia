@@ -1,0 +1,10 @@
+_id: ut_4c0db852a6c84f8fb83aea22581394b5
+type: UnitTest
+parentId: uts_e06df5babc6242879aba5cc7ba24c312
+modified: 1646947908001
+created: 1646859240198
+requestId: req_848fb6c719404992a23e8219be0706ac
+name: "Can Create User "
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

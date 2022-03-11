@@ -1,0 +1,16 @@
+_id: env_env_6c9a90b4dcccfecef32718dab22bec51672ddde0_sub
+type: Environment
+parentId: env_6c9a90b4dcccfecef32718dab22bec51672ddde0
+modified: 1646947709451
+created: 1646859336231
+name: account - Finn
+data:
+  email: finn@email.com
+  password: password
+dataPropertyOrder:
+  "&":
+    - email
+    - password
+color: "#00ff91"
+isPrivate: false
+metaSortKey: 1646859336231

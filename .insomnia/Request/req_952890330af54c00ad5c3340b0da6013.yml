@@ -1,0 +1,40 @@
+_id: req_952890330af54c00ad5c3340b0da6013
+type: Request
+parentId: fld_bfae09a5cbd44b8a96359da1b1f52dee
+modified: 1646946239929
+created: 1646942289149
+url: "{{ _.gotrue }}/token"
+name: Get token - refresh
+description: |-
+  Logs in with the following credentials:
+   - {{ _.email }}
+   - {{ _.password }}
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"refresh_token": "{% response 'body', 'req_8ae5c7be30f046e48c4015d218f31f0d', 'b64::JC5yZWZyZXNoX3Rva2Vu::46b', 'always', 60 %}"
+    }
+parameters:
+  - id: pair_d03baaaa844845c689e1850ec1f75893
+    name: grant_type
+    value: refresh_token
+    description: ""
+  - id: pair_85d71613694c495ba0dd17ceb1d9fa76
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1efb60aa92024281bdc90a9d3f7309ab
+authentication: {}
+metaSortKey: -1646902240956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

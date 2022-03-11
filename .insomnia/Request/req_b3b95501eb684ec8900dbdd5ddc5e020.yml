@@ -1,0 +1,42 @@
+_id: req_b3b95501eb684ec8900dbdd5ddc5e020
+type: Request
+parentId: fld_bfae09a5cbd44b8a96359da1b1f52dee
+modified: 1646946240669
+created: 1646939174182
+url: "{{ _.gotrue }}/user"
+name: Get user
+description: |-
+  Logs in with the following credentials:
+   - {{ _.email }}
+   - {{ _.password }}
+method: GET
+body:
+  mimeType: application/json
+  text: "{}"
+parameters:
+  - id: pair_d03baaaa844845c689e1850ec1f75893
+    name: grant_type
+    value: refresh_token
+    description: ""
+  - id: pair_34b839f088874ee0af6c10d15a6413f5
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1efb60aa92024281bdc90a9d3f7309ab
+  - id: pair_c3e4d62d79d34b6891a86dee7a298549
+    name: Authorization
+    value: Bearer {% response 'body', 'req_952890330af54c00ad5c3340b0da6013',
+      'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}
+    description: ""
+authentication: {}
+metaSortKey: -1646902240943.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

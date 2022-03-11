@@ -1,0 +1,10 @@
+_id: ut_9ad26e31a4454b92a874ff3b6bce54eb
+type: UnitTest
+parentId: uts_e06df5babc6242879aba5cc7ba24c312
+modified: 1646947740557
+created: 1646859249028
+requestId: req_8ae5c7be30f046e48c4015d218f31f0d
+name: Can Login
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

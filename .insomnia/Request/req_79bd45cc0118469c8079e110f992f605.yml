@@ -1,0 +1,29 @@
+_id: req_79bd45cc0118469c8079e110f992f605
+type: Request
+parentId: fld_43db6e9e1b1e4b6491b1f99dffef2b17
+modified: 1646946250353
+created: 1646946061204
+url: "{{ _.gotrue }}/authorize"
+name: Discord
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_77f58af8d10f44d2a0f1fe03e103fee4
+    name: provider
+    value: github
+    description: ""
+  - id: pair_54d52864f26e4b29a0b309c1969be09a
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1646946061204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
