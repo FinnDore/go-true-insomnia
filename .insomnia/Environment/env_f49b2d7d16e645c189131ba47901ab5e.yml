@@ -1,0 +1,16 @@
+_id: env_f49b2d7d16e645c189131ba47901ab5e
+type: Environment
+parentId: env_6c9a90b4dcccfecef32718dab22bec51672ddde0
+modified: 1646947714353
+created: 1646947662544
+name: account - Jack
+data:
+  email: jack@email.com
+  password: password
+dataPropertyOrder:
+  "&":
+    - email
+    - password
+color: "#7300ff"
+isPrivate: false
+metaSortKey: 1646859336281

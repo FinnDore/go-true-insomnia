@@ -1,0 +1,37 @@
+_id: req_8ae5c7be30f046e48c4015d218f31f0d
+type: Request
+parentId: fld_bfae09a5cbd44b8a96359da1b1f52dee
+modified: 1646947725603
+created: 1646858575287
+url: "{{ _.gotrue }}/token"
+name: Get token - password
+description: |-
+  Logs in with the following credentials:
+   - {{ _.email }}
+   - {{ _.password }}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.email }}",
+    	"password": "{{ _.password }}"
+    }
+parameters:
+  - id: pair_d03baaaa844845c689e1850ec1f75893
+    name: grant_type
+    value: password
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1efb60aa92024281bdc90a9d3f7309ab
+authentication: {}
+metaSortKey: -1646902240981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

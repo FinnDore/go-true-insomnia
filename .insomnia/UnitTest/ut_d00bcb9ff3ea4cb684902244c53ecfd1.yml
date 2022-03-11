@@ -1,0 +1,10 @@
+_id: ut_d00bcb9ff3ea4cb684902244c53ecfd1
+type: UnitTest
+parentId: uts_e06df5babc6242879aba5cc7ba24c312
+modified: 1646947775171
+created: 1646947765335
+requestId: req_952890330af54c00ad5c3340b0da6013
+name: Can get refresh token
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

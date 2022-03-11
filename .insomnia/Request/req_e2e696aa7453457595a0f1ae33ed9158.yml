@@ -1,0 +1,21 @@
+_id: req_e2e696aa7453457595a0f1ae33ed9158
+type: Request
+parentId: wrk_533ed39682e5404eae30ee13b8ac8351
+modified: 1646945944169
+created: 1646854198914
+url: "{{ _.gotrue }}/settings"
+name: Settings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646945906075
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
